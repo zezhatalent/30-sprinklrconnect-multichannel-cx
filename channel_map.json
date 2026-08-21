@@ -1,0 +1,10 @@
+{
+  "queues": {
+    "email": { "queue": "digital_care_email", "sla_hours": 12 },
+    "twitter": { "queue": "social_urgent", "sla_hours": 2 },
+    "facebook": { "queue": "social_standard", "sla_hours": 6 },
+    "whatsapp": { "queue": "messaging_desk", "sla_hours": 4 }
+  },
+  "urgency_keywords": ["urgent", "immediately", "fraud", "unacceptable", "legal notice"],
+  "default_queue": "digital_care_email"
+}
